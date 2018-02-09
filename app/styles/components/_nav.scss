@@ -1,0 +1,44 @@
+.top-bar, .top-bar ul {
+  background: $darkD;
+}
+
+.top-bar{
+  color: $whiteL;
+  .navbar-centered {
+    display: flex;
+    justify-content: center;
+    ul.menu {
+      li {
+        font-size: 18px;
+        .active-class {
+          color: $whiteD;
+          &.active {
+            color: $yellowL;
+            font-weight: $bold;
+          }
+        }
+      }
+    }
+  }
+}
+.author-centered {
+  background: $darkL;
+  padding: 10px;
+  color: $white;
+  text-align: center;
+  p.author {
+    font-size: 14px;
+    display: block;
+    position: relative;
+    span {
+      font-weight: $bold;
+    }
+    a {
+      color: $whiteD;
+      text-decoration: underline;
+      &:hover {
+        color: $whiteL;
+      }
+    }
+  }
+}

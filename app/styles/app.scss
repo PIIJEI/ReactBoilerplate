@@ -1,0 +1,32 @@
+//BASE
+@import 'base/variables';
+
+//COMPONENTS
+@import 'components/nav';
+@import 'components/main';
+
+
+//MAIN GENERAL STYLES
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-family: $mainFont;
+  font-weight: $regular;
+  color: $dark;
+  background: $white;
+  overflow: hidden;
+  width: 100%;
+}//body, html
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+}
